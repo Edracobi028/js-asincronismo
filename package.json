@@ -10,5 +10,8 @@
     "javascript"
   ],
   "author": "eduardo razo edracobirz028@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
