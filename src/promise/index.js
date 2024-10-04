@@ -23,6 +23,23 @@ const countCows = new Promise(function(resolve, reject){
 //Ejecutar la promesa y manejar el resultado ya sea con then y catch
 countCows.then((result) => { // cuando hay un error
     console.log(result); //Mostrar en consola el resultado
-}).catch( (error) => {
+}).catch((error) => {
     console.log(error); //Mostrar en consola el error
-}).finally( ()=> console.log('Finally'));
+}).finally(()=> console.log('Finally'));
+
+
+// Playground
+
+/* 
+export function delay(time, message) {
+    return new Promise((resolve, reject) => {
+      window.setTimeout(() => {
+        resolve(message);
+      }, time);
+  
+    });
+  }
+  
+  delay(2000, "Hello after 2s");
+  delay(3000, "Hello after 3s"); 
+*/
