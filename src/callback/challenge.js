@@ -4,7 +4,7 @@
 //Llamada al recurso o paquete que intalamos
 const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
-//Llamado de API variable que haga referencia al recurso en Mayus para referenciar una constante
+//Llamado de API, crear variable que haga referencia al recurso en Mayus para referenciar una constante
 const API = 'https://api.escuelajs.co/api/v1'; //Referencia al root de nuestra API
 
 
