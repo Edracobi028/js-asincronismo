@@ -28,5 +28,18 @@ const anotherFunction = async (urlApi) => {
     }
 }
 
-//Llamar la funcion que reciba la api
+//Playground: Llamar la funcion que reciba la api
 anotherFunction(API);
+
+// Captura el error de una petición
+/* 
+runCode();
+export async function runCode() {
+    try {
+      const url = 'https://domain-api-com';
+      await fetch(urlApi);
+    } catch (error) {
+      throw new Error(`API Not Found`);
+    }
+} 
+    */
