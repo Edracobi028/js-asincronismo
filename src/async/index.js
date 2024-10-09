@@ -11,8 +11,8 @@ const fnAsync = ()=> { //Logica de la promesa
 
 //Crear una funcion que va a usar el concepto de async y usar await
 const anotherFn = async () => { //usa la palabra reservada async
-    const varAwait = await fnAsync(); //llamamos la funcion que tiene la promesa con la palabra await
-    console.log(varAwait); //Muestre en consola cuando se resuelva la promesa
+    const varAwait = await fnAsync(); //Creamos una variable donde llamamos la funcion de manera especial con la palabra await para esperarla
+    console.log(varAwait); //Muestra en consola lo que resuelve la promesa
     console.log('Hello!'); // Que pasara con este msj ?
 }
 
