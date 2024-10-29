@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'; //Llamada al recurso o paquete que instalamos
 
-//Llamado de API, crear variable que haga referencia al recurso en Mayus para referenciar una constante
+//Variable de tipo contatnte con la url que hace referencia al recurso de la API
 const API = 'https://api.escuelajs.co/api/v1'; //Referencia al root de nuestra API
 
 //Crear funcion para recibir la URL de tipo promesa Productos, producto en particular y la categoria
